@@ -57,6 +57,14 @@ Outras visões foram criadas para explicitar a arquitetura. São elas:
   4. [Conteúdo Público - Visão de Microsserviços][msviewpings]
   5. [Conteúdo Público - Diagrama de Sequência][dseqpings]
 
+
+### Análises de Trade-Offs dos Padrões adotados
+
+  - [CQRS][cqrs_tradeoffs]
+  - [API Gateway][apigateway_tradeoffs]
+  - [Event Sourcing][eventsourcing_tradeoffs]
+  - [Asynchronous Messaging][asyncmsg_tradeoffs]
+
 [twitter]: https://twitter.com
 [veraoimeusp]: https://www.ime.usp.br/~verao/index.php
 [requisitospingr]: ./extras/requisitos.md
@@ -67,3 +75,8 @@ Outras visões foram criadas para explicitar a arquitetura. São elas:
 [msviewdps]: ./views/msview-dps.md
 [msviewpings]: ./views/msview-pings.md
 [dseqpings]: ./views/dseqview-pings.md
+
+[cqrs_tradeoffs]: ./extras/cqrs_tradeoffs.md
+[apigateway_tradeoffs]: ./extras/apigateway_tradeoffs.md
+[eventsourcing_tradeoffs]: ./extras/eventsourcing_tradeoffs.md
+[asyncmsg_tradeoffs]: ./extras/asyncmsg_tradeoffs.md
