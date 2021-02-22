@@ -47,6 +47,14 @@ As resposnsabilidades e funcionalidades de cada microsserviço são as seguintes
 
 > obs: todos os serviços fazem uso de bancos de dados para persistência e busca de informações, porém neste documento não serão abordadas questões relacionadas aos modelos de dados (relacional, documentos, chave-valor, etc).
 
+Nesta proposta de arquitetura, alguns padrões de microsserviço são adotados. São eles:
+
+  - [API Gateway][apigateway_tradeoffs]
+  - [Asynchronous Messaging][asyncmsg_tradeoffs]
+  - [CQRS][cqrs_tradeoffs]
+  - [Database per Service][dbpersvc_tradeoffs]
+  - [Event Sourcing][eventsourcing_tradeoffs]
+
 ### Demais visões
 
 Outras visões foram criadas para explicitar a arquitetura. São elas:
@@ -57,13 +65,6 @@ Outras visões foram criadas para explicitar a arquitetura. São elas:
   4. [Conteúdo Público - Visão de Microsserviços][msviewpings]
   5. [Conteúdo Público - Diagrama de Sequência][dseqpings]
 
-
-### Análises de Trade-Offs dos Padrões adotados
-
-  - [CQRS][cqrs_tradeoffs]
-  - [API Gateway][apigateway_tradeoffs]
-  - [Event Sourcing][eventsourcing_tradeoffs]
-  - [Asynchronous Messaging][asyncmsg_tradeoffs]
 
 [twitter]: https://twitter.com
 [veraoimeusp]: https://www.ime.usp.br/~verao/index.php
@@ -80,3 +81,4 @@ Outras visões foram criadas para explicitar a arquitetura. São elas:
 [apigateway_tradeoffs]: ./extras/apigateway_tradeoffs.md
 [eventsourcing_tradeoffs]: ./extras/eventsourcing_tradeoffs.md
 [asyncmsg_tradeoffs]: ./extras/asyncmsg_tradeoffs.md
+[dbpersvc_tradeoffs]: ./extras/dbpersvc_tradeoffs.md
