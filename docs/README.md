@@ -81,4 +81,4 @@ Outras visões foram criadas para explicitar a arquitetura. São elas:
 [apigateway_tradeoffs]: ./extras/apigateway_tradeoffs.md
 [eventsourcing_tradeoffs]: ./extras/eventsourcing_tradeoffs.md
 [asyncmsg_tradeoffs]: ./extras/asyncmsg_tradeoffs.md
-[dbpersvc_tradeoffs]: ./extras/dbpersvc_tradeoffs.md
+[dbpersvc_tradeoffs]: ./extras/dbperservice_tradeoffs.md
