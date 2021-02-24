@@ -16,8 +16,12 @@ Crie um serviço dedicado à operação de consulta. Este serviço deve acompanh
 
 ## Análise de Trade-offs
 
-  - [+] é possível adotar estruturas de dados diferentes otimizadas para as operações de inserção e consulta de dados
-  - [-] é necessário fazer replicação de dados
-  - [+] permite independência de escalabilidade entre inserção e consulta
-  - [-] implica em consistência eventual de dados para aqueles subconjunto do domínio
-  - [+] melhora a performance de consultas que envolvem diferentes partes do sistema
+:heavy_plus_sign: é possível adotar estruturas de dados diferentes otimizadas para as operações de inserção e consulta de dados
+
+:heavy_minus_sign: é necessário fazer replicação de dados
+
+:heavy_plus_sign: permite independência de escalabilidade entre inserção e consulta
+
+:heavy_minus_sign: implica em consistência eventual de dados para aqueles subconjunto do domínio
+
+:heavy_plus_sign: melhora a performance de consultas que envolvem diferentes partes do sistema

@@ -15,6 +15,8 @@ Crie fontes de dados distribuídas de modo que cada qual seja acessada exclusiva
 
 ## Análise de Trade-offs
 
-  - [+] localmente, facilita a gestão de dados de cada serviço
-  - [-] globalmente, aumenta a complexidade da gestão de dados, pela replicação e manutenção em ambiente heterogêneo 
-  - [+] diminui o acoplamento entre serviços que antes compartilhavam uma mesma fonte
+:heavy_plus_sign: localmente, facilita a gestão de dados de cada serviço
+
+:heavy_minus_sign: globalmente, aumenta a complexidade da gestão de dados, pela replicação e manutenção em ambiente heterogêneo 
+
+:heavy_plus_sign: diminui o acoplamento entre serviços que antes compartilhavam uma mesma fonte

@@ -16,9 +16,13 @@ Crie um único ponto de acesso ao sistema, por posicionar publicamente e à fren
 
 ## Análise de Trade-offs
 
-- [+] cria uma abstração da divisão interna
-- [-] a comunicação passa a ter um passo intermediário entre cliente e serviço
-- [+] ajuda no processo de migração para novos particionamentos do sistema
-- [-] pode ser um ponto único de falha
-- [+] destaca-se como um dos principais agentes de segurança no sistema
+:heavy_plus_sign: cria uma abstração da divisão interna
+
+:heavy_minus_sign: a comunicação passa a ter um passo intermediário entre cliente e serviço
+
+:heavy_plus_sign: ajuda no processo de migração para novos particionamentos do sistema
+
+:heavy_minus_sign: pode ser um ponto único de falha
+
+:heavy_plus_sign: destaca-se como um dos principais agentes de segurança no sistema
 

@@ -18,6 +18,8 @@ Implemente uma estrutura que permita que serviços publiquem eventos em tópicos
 
 ## Análise de Trade-offs
 
-  - [+] garante atomicidade para persistência e notificação
-  - [-] implementa uma solução não-trivial para lidar com dados
-  - [+] torna possível reconstruir estados históricos da aplicação
+:heavy_plus_sign: garante atomicidade para persistência e notificação
+
+:heavy_minus_sign: implementa uma solução não-trivial para lidar com dados
+
+:heavy_plus_sign: torna possível reconstruir estados históricos da aplicação

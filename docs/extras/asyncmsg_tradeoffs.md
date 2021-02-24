@@ -16,8 +16,11 @@ Adote um modelo assíncrono de comunicação entre as partes do sistema. Um esti
 
 ## Análise de Trade-offs
 
-  - [-] torna a comunicação entre partes mais complexa
-  - [+] diminui o acoplamento entre as partes
-  - [-] suporta apenas consistência eventual de dados
-  - [+] com partes menos acopladas, pode haver melhoras de desempenho
+:heavy_minus_sign: torna a comunicação entre partes mais complexa
+
+:heavy_plus_sign: diminui o acoplamento entre as partes
+
+:heavy_minus_sign: suporta apenas consistência eventual de dados
+
+:heavy_plus_sign: com partes menos acopladas, pode haver melhoras de desempenho
 
