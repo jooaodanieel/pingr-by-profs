@@ -17,3 +17,7 @@ Em uma arquitetura de microsserviços orientada a eventos com gestão de dados d
 Implemente uma estrutura que permita que serviços publiquem eventos em tópicos e que também permita que serviços se inscrevam em tópicos para receber eventos. Faça com que esta estrutura persista os eventos em seus tópicos como uma lista cronológica.
 
 ## Análise de Trade-offs
+
+  - [+] garante atomicidade para persistência e notificação
+  - [-] implementa uma solução não-trivial para lidar com dados
+  - [+] torna possível reconstruir estados históricos da aplicação
