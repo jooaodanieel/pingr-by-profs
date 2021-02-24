@@ -18,7 +18,8 @@ Com isto, Busca faz uma indexação que dá suporte às suas principais funciona
 
 ## Complementos
 
-É interessante destacar que há a aplicação do padrão **CQRS** neste relação.
+É interessante destacar que há a aplicação do padrão **CQRS** neste relação. Veja também a [sua análise de trade-offs][cqrs].
 
 [home]: ../
 [msviewbusca]: ./msview-busca.png
+[cqrs]: ../extras/cqrs_tradeoffs.md

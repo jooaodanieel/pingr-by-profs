@@ -10,7 +10,7 @@ Esta visão é um destaque com relação à visão panorâmica apresentada [aqui
 
 Esta visão mostra a relação dos serviços para atender todas as funcionalidades que vão desde um usuário postando um ping, até este usuário recebendo notificações PUSH que seus seguidores deram curtidas em seu último ping.
 
-Para isso, um usuário precisa receber uma solicitação de outro para segui-lo, de responsabilidade do serviço **Seguir + Amigos**. Quando aprovada (ocorre de imediato para um usuário público), o serviço **Conteúdo** passa a indexar os pings adequados para a mesa principal. Um usuário que acessa sua mesa pode ver os pings de um usuário que ele segue e, então, pode curtir ou dar pong -- funcionalidades de responsabilidade do serviço **Curtir + Pongar**. Por fim, caso haja alguma de tais interações, o serviço **Notificação** pode então informar ao dono do ping de tais ocorrências.
+Para isso, um usuário precisa receber uma solicitação de outro para segui-lo, de responsabilidade do serviço **Seguir + Amigos** -- saiba mais [nesta visão][seguir]. Quando aprovada (ocorre de imediato para um usuário público), o serviço **Conteúdo** passa a indexar os pings adequados para a mesa principal. Um usuário que acessa sua mesa pode ver os pings de um usuário que ele segue e, então, pode curtir ou dar pong -- funcionalidades de responsabilidade do serviço **Curtir + Pongar**. Por fim, caso haja alguma de tais interações, o serviço **Notificação** pode então informar ao dono do ping de tais ocorrências.
 
 ## Complementos
 
@@ -20,6 +20,10 @@ Com efeito, um outro ciclo não-trivial de CQRS está presente neste fluxo. Cons
 
 > obs: o destaque aplicado à imagem visa apenas trazer de forma visualmente simples o principal fluxo de CQRS deste cenário. É importante, porém, reforçar que os serviços podem desempenhar diversos papéis, a depender do contexto. A exemplo disso, vide **Notificação** que, no primeiro CQRS não desempenha papel algum, enquanto no segundo é justamente o responsável pelo _query_.
 
+Veja também a [análise de trade-offs do padrão CQRS][cqrs].
+
 [home]: ../
 [dseqviewpings]: ./dseqview-pings.md
 [msviewpings]: ./msview-pings.png
+[seguir]: ./msview-seguir.md
+[cqrs]: ../extras/cqrs_tradeoffs.md
