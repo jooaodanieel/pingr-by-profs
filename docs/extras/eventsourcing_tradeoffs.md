@@ -8,8 +8,6 @@ O padrão será apresentado em duas etapas: **O Problema** no qual seu uso faz s
 
 ### O Problema
 
-async comm, event driven, gestão descentralizada de dados e atomicidade entre (persistência e publicação)
-
 Em uma arquitetura de microsserviços orientada a eventos com gestão de dados descentralizada, existe a dificuldade em garantir atomicidade para a combinação de tarefas: persistência e notificação.
 
 ### A Solução
