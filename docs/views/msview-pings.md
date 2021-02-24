@@ -18,7 +18,9 @@ A imagem destaca a área central do CQRS, envolvendo **Ping** e **Conteúdo**. �
 
 Com efeito, um outro ciclo não-trivial de CQRS está presente neste fluxo. Considerando a responsabilidade de _query_ agora sob o serviço **Notificação**, e a de _command_ distribuída entre **Ping**, **Curtir + Pongar** e **Seguir + Amigos**.
 
-> obs: o destaque aplicado à imagem visa apenas trazer de forma visualmente simples o principal fluxo de CQRS deste cenário. É importante, porém, reforçar que os serviços podem desempenhar diversos papéis, a depender do contexto. A exemplo disso, vide **Notificação** que, no primeiro CQRS não desempenha papel algum, enquanto no segundo é justamente o responsável pelo _query_.
+::: tip Obs
+o destaque aplicado à imagem visa apenas trazer de forma visualmente simples o principal fluxo de CQRS deste cenário. É importante, porém, reforçar que os serviços podem desempenhar diversos papéis, a depender do contexto. A exemplo disso, vide **Notificação** que, no primeiro CQRS não desempenha papel algum, enquanto no segundo é justamente o responsável pelo _query_.
+:::
 
 Veja também a [análise de trade-offs do padrão CQRS][cqrs].
 

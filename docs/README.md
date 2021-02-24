@@ -2,7 +2,9 @@
 
 [[TOC]]
 
-> O **Pingr** é um sistema hipotético inspirado no [Twitter][twitter]. Foi criado como projeto para o curso **Arquitetura Ágil de Software**, ministrado durante o [Programa de Verão - IME-USP - 2021][veraoimeusp].
+::: tip CONTEXTO
+O **Pingr** é um sistema hipotético inspirado no [Twitter][twitter]. Foi criado como projeto para o curso **Arquitetura Ágil de Software**, ministrado durante o [Programa de Verão - IME-USP - 2021][veraoimeusp].
+:::
 
 O Pingr é uma rede social no formato de microblog, caracterizada pelo fato de que os usuários podem postar atualizações limitadas a 140 caracteres. Cada atualização, chamada de ping, pode ser respondida em um novo ping, pode receber uma curtida ou então pode receber pongs -- um compartilhamento por outros usuários.
 
@@ -14,7 +16,9 @@ Consulte os requisitos do sistema [aqui][requisitospingr].
 
 ### Panorama
 
-> Esta proposta é de autoria dos professores do curso. Não é um gabarito, serve como referência do processo de criação, da adoção de padrões e da condução do raciocínio durante a documentaçãõ. **Não é a única arquitetura correta**.
+::: warning IMPORTANTE
+Esta proposta é de autoria dos professores do curso. Não é um gabarito, serve como referência do processo de criação, da adoção de padrões e da condução do raciocínio durante a documentação. **Não é a única arquitetura correta**.
+:::
 
 A arquitetura proposta segue o _estilo arquitetural de microsserviços_, por alguns fatores:
 - escalabilidade da organização e das equipes de desenvolvimento
@@ -45,7 +49,9 @@ As resposnsabilidades e funcionalidades de cada microsserviço são as seguintes
 
   - **Notificação**: gerencia a lista de atualizações de um usuário que merecem ser notificadas. Também é responsável por acessar um serviço externo de _push notification_.
 
-> obs: todos os serviços fazem uso de bancos de dados para persistência e busca de informações, porém neste documento não serão abordadas questões relacionadas aos modelos de dados (relacional, documentos, chave-valor, etc).
+::: tip Obs
+todos os serviços fazem uso de bancos de dados para persistência e busca de informações, porém neste documento não serão abordadas questões relacionadas aos modelos de dados (relacional, documentos, chave-valor, etc).
+:::
 
 Nesta proposta de arquitetura, alguns padrões de microsserviço são adotados. São eles:
 

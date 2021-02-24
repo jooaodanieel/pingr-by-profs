@@ -9,7 +9,9 @@ O diagrama mostra um conjunto de três sequências, denotadas pelos rótulos:
 
 ![Pings - Diagrama de Sequência][dseqviewpings]
 
-> obs: este diagrama é inspirado no Diagrama de Sequência da UML; eventuais alterações estão explicitadas pela legenda.
+::: tip Obs
+este diagrama é inspirado no Diagrama de Sequência da UML; eventuais alterações estão explicitadas pela legenda.
+:::
 
 Este conjunto representa as interações de um usuário "A", que passa a seguir um usuário _público_ "B". "A", então, ao acessar sua mesa principal, pode visualizar o ping mais recente de "B". Dentro da primeira sequência, podemos ver que uma das implicações é que "B" recebe uma notificação informando que agora "A" o está seguindo.
 
